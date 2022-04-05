@@ -139,6 +139,7 @@ namespace WinFormsApp4
             public void doClickEvent(object sender, EventArgs e)
             {
                 this.targetlabel.Text =this.buttonMsg;
+                eventSuspend();
             }
         }
 
